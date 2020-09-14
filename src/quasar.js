@@ -7,7 +7,7 @@ import { Quasar, Loading, QSpinnerPuff } from "quasar";
 // Set default loader for views
 Loading.setDefaults({
   spinner: QSpinnerPuff,
-  spinnerSize: 200, // px
+  spinnerSize: 200 // px
 });
 
 Vue.use(Quasar, {
@@ -18,5 +18,5 @@ Vue.use(Quasar, {
   directives: {
     /* not needed if importStrategy is not 'manual' */
   },
-  plugins: {},
+  plugins: {}
 });
